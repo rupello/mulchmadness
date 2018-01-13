@@ -1,0 +1,8 @@
+googlemaps
+ipykernel
+pandas
+xlrd
+xlwt
+motionless
+qrcode
+reportlab
