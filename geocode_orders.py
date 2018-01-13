@@ -31,7 +31,7 @@ def normalize_addr(addr):
 def geocode(address):
     try:
         print("geocoding {}...".format(address))
-        apikey = 'AIzaSyDpT6xnePrW02hH4XxErpTf1OV2yRu4RbQ'
+        apikey = 'your-key-here'
         gmaps = googlemaps.Client(key=apikey)
         geocode_result = gmaps.geocode(address)
         return (geocode_result[0]['geometry']['location']['lat'],
